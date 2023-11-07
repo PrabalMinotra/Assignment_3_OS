@@ -1,8 +1,7 @@
 # this is makefile for MeMS
-
 all: clean example 
 
-example: example.c mems.h
+example:
 	gcc -o example example.c
 
 clean:
